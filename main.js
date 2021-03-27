@@ -7,7 +7,7 @@ const { Video } = new Mux(
   'Q5cfbnAvzcTpD3kxDrJnyakfvcd0t/2J1ORKpt6IsDx7CZMk3E+a0Bu1o6oyx3nnrBuWPKvCnmJ'
 );
 const app = express();
-const port = 3000;
+const port = process.env.PORT;
 
 var jsonParser = bodyParser.json();
 
